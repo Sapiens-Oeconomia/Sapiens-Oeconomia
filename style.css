@@ -1,0 +1,291 @@
+body {
+  color: #555;
+  margin: 0;
+
+  font-family: 'Montserat', sans-serif;
+}
+
+#header {
+  background-color: #4169E1;
+  height: 150px;
+  line-height: 60px;
+  text-align: center;
+  padding-right: 300px;
+}
+#header a {
+  color: rgb(146, 0, 0);
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  
+}
+
+#header a:hover {
+  color:#222;
+}
+
+#header-title {
+  font-size: 15px;
+}
+
+#header-nav {
+  display: block;
+}
+
+#header-nav li {
+  display: -ms-inline-grid;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 50 50 50 50;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer p {
+  color: white;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F6A623;
+}
+
+.post-date {
+  color: #D2D2D2;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.logo {
+  padding-top: 10px;
+  height: 120px;
+  width: 120px;
+  position: relative;
+  margin: 10 10 10 10;
+}
+
+#BIP{
+    padding: 50px 40px 50px 40px;
+    
+}
+
+.BIP-Title {
+  padding: 40px 20px 20px 0px;
+}
+
+.BIP-Subtitle {
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+
+br {
+    padding: 20px;
+}
+
+.BIP-Bild {
+    padding: 40px;
+    padding-left: 200px;
+    height: 500px;
+    width: 525px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4169E1;
+  color: white;
+  padding-bottom: 15px;
+  margin: 20 20 20 20;
+  font-size: 25px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  padding-top: 50px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: purple;}
+
+#ND {
+  padding: 40px 40px 40px 40px;
+}
+
+.ND-IMG {
+  padding-top: 20px;
+  padding-left: 450px;
+}
+
+.index-IMG {
+  padding-left: 450px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#WP {
+  padding: 50px 40px 50px 40px;
+}
+
+#CO2 {
+  padding: 50px 40px 50px 40px;
+}
+
+#SF {
+  padding: 50px 40px 50px 40px;
+}
+
+.SF-IMG {
+  padding-left: 450px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#Defl {
+  padding: 50px 40px 50px 40px;
+}
+
+#FDR {
+  padding: 50px 40px 50px 40px;
+}
+
+.FDR-Bild {
+  padding-left: 50px;
+  padding-bottom: 75px;
+}
+
+#Geld {
+  padding: 50px 40px 50px 40px;
+}
+
+.Geld-IMG {
+  height: 368px;
+  width: 926px;
+}
+
+#SM {
+  padding: 50px 40px 50px 40px;
+}
+
+.SM-IMG {
+  padding-left: 300px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#STFA {
+  padding: 50px 40px 50px 40px;
+}
+
+.STFA-IMG {
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#SDF {
+  padding: 50px 40px 50px 40px;
+}
+
+.SDF-IMG {
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#Inf {
+  padding: 50px 40px 50px 40px;
+}
+
+.Inf-IMG {
+  height: 506px;
+  width: 1007px;
+}
+
+#VS {
+  padding: 50px 40px 50px 40px;
+}
+
+#VF {
+  padding: 50px 40px 50px 40px;
+}
+
+#WH {
+  padding: 50px 40px 50px 40px;
+}
+
+.WH-IMG {
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Wirtschaftskreislauf-IMG {
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#WK {
+  padding: 50px 40px 50px 40px;
+}
+
